@@ -10,6 +10,8 @@ The top command is used to display all the running and active real-time processe
 
 It also shows high memory and cpu utilization of running processes. The top command is much useful for system administrators to monitor and take corrective action when required. Let’s see the top command in action.
 
+![Top.jpg](/Top.jpg)
+
 
 ## 2. VmStat – Virtual Memory Statistics
 
@@ -36,6 +38,8 @@ The most common format for lsof command is.
 
 #lsof
 
+![lsof.jpg](/lsof.jpg)
+
 ## 4. Tcpdump – Network Packet Analyzer
 
 The tcpdump command is one of the most widely used command-line network packet analyzer or packets sniffer programs that is used to capture or filters TCP/IP packets that are received or transferred on a specific interface over a network.
@@ -58,6 +62,9 @@ While in present-day netstat has been deprecated in favor of the ss command, you
 htop is a much advanced interactive and real-time Linux process monitoring tool, which is much similar to Linux top command but it has some rich features like a user-friendly interface to manage processes, shortcut keys, vertical and horizontal views of the processes, and much more.
 
 #htop
+
+![htop.jpg](/htop.jpg)
+
 
 htop is a third-party tool, which doesn’t come with Linux systems, you need to install it using your system package manager tool. 
 
@@ -121,6 +128,12 @@ iftop is another terminal-based free open source system monitoring utility that 
 
 iftop is considered for network usage, what ‘top‘ does for CPU usage. iftop is a ‘top‘ family tool that monitors a selected interface and displays a current bandwidth usage between two hosts.
 
+`madhu@INNERG:~/github/Monitoring_Linux$ iftop
+interface: wifi0
+IP address is: 192.168.1.12
+IPv6 address is: 2a02:a03f:666f:e000:7dc5:35c4:452b:79a5
+MAC address is: 28:b2:bd:44:3a:3b
+pcap_open_live(wifi0): socket for SIOCETHTOOL(ETHTOOL_GET_TS_INFO): Socket type not supported`
 
 ## 14. Monitorix – System and Network Monitoring
 
